@@ -1,0 +1,48 @@
+.bordeado{
+    margin-top: 50px;
+    border-top: 5px solid #264653 !important;
+    border-bottom: 5px solid #264653 !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.tamaño {
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.color {
+    color: #264653;
+}
+
+.nav-link {
+    display: inline;
+}
+
+li::marker {
+    font-size: 1.7rem;
+    color: #264653;
+}
+
+.marker::marker {
+    color: black;
+    font-size: 1rem;
+}
+
+.marker {
+    list-style-type: disc;
+}
+
+.tope-bajo {
+    margin: 0;
+}
+
+.tope {
+    margin-top:20px
+}
